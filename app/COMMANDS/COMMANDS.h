@@ -1,0 +1,4 @@
+enum COMMANDS{
+    up,
+    down
+};

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\OdObjects">
+      <UniqueIdentifier>{f6945c9e-f396-4249-aef1-37aae8cf9927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OdObjects\OdBaseAbstractClasses">
+      <UniqueIdentifier>{4e9c27a1-562d-4b80-a139-ac0e099a02e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OdObjects\OdBodyPart">
+      <UniqueIdentifier>{fcf2dcae-82e9-4d2f-b6fb-767424592b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OdObjects\OdBodyPartElement">
+      <UniqueIdentifier>{f2fe0409-9a52-4352-ad19-99f73aabf1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App">
+      <UniqueIdentifier>{3a8730e2-06cc-45ce-95d2-ad0e4187d4fc}</UniqueIdentifier>
+    </Filter>
+<<<<<<< HEAD
+    <Filter Include="Source\OdGraphics">
+      <UniqueIdentifier>{0c2243bd-c9b0-46b9-aac1-e3bc41cb26f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\OdGraphics\OdDrawableObject">
+      <UniqueIdentifier>{8d16d2a1-760f-4821-a849-74257485c898}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\OdObjects\OdBodyPartElement\OdBodyPartElement.h">
+      <Filter>Source\OdObjects\OdBodyPartElement</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OdObjects\OdBodyPart\OdLeg.h">
+      <Filter>Source\OdObjects\OdBodyPart</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OdObjects\OdBaseAbstractClasses\OdObject.h">
+      <Filter>Source\OdObjects\OdBaseAbstractClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\_APP\main.h">
+      <Filter>Source\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OdGraphics\DEFINE_64.h">
+      <Filter>Source\OdGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OdGraphics\OdDevice\OdDrawableObject.h">
+      <Filter>Source\OdGraphics\OdDrawableObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OdObjects\_all.h">
+      <Filter>Source\OdObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OdGraphics\_all.h">
+      <Filter>Source\OdGraphics</Filter>
+    </ClInclude>
+=======
+    <Filter Include="Header Files\LEG">
+      <UniqueIdentifier>{6fbc479f-50a5-42d5-a231-26b67481a9d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\COMMANDS">
+      <UniqueIdentifier>{bab40fae-cf8d-4fe5-b027-ac579dfcaceb}</UniqueIdentifier>
+    </Filter>
+>>>>>>> origin/master
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\_APP\main.cpp">
+      <Filter>Source\App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ODE_DOUBLE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LEG\LEG.h">
+      <Filter>Header Files\LEG</Filter>
+    </ClInclude>
+    <ClInclude Include="LEG\LEG_Impl.h">
+      <Filter>Header Files\LEG</Filter>
+    </ClInclude>
+    <ClInclude Include="COMMANDS\COMMANDS.h">
+      <Filter>Header Files\COMMANDS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
